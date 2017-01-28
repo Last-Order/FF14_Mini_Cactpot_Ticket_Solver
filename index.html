@@ -1,0 +1,93 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title>仙人微彩概率计算</title>
+    <link rel="stylesheet" href="http://cdn.amazeui.org/amazeui/2.7.2/css/amazeui.min.css">
+    <script src="http://wikiplus-app.smartgslb.com/statistics/Public/js/jquery.js"></script>
+    <script src="http://cdn.amazeui.org/amazeui/2.7.2/js/amazeui.min.js"></script>
+</head>
+
+<body>
+    <div id="app">
+        <div class="am-g">
+            <div class="am-u-sm-8 am-u-sm-offset-2" @change="check()">
+                <ul class="am-avg-sm-3 boxes am-u-sm-6">
+                    <li class="box box-1">
+                        <div class="am-form-group">
+                            <input type="number" class="" v-model.number="num1">
+                        </div>
+                    </li>
+                    <li class="box box-2">
+                        <div class="am-form-group">
+                            <input type="number" class="" v-model.number="num2">
+                        </div>
+                    </li>
+                    <li class="box box-3">
+                        <div class="am-form-group">
+                            <input type="number" class="" v-model.number="num3">
+                        </div>
+                    </li>
+                    <li class="box box-4">
+                        <div class="am-form-group">
+                            <input type="number" class="" v-model.number="num4">
+                        </div>
+                    </li>
+                    <li class="box box-5">
+                        <div class="am-form-group">
+                            <input type="number" class="" v-model.number="num5">
+                        </div>
+                    </li>
+                    <li class="box box-6">
+                        <div class="am-form-group">
+                            <input type="number" class="" v-model.number="num6">
+                        </div>
+                    </li>
+                    <li class="box box-7">
+                        <div class="am-form-group">
+                            <input type="number" class="" v-model.number="num7">
+                        </div>
+                    </li>
+                    <li class="box box-8">
+                        <div class="am-form-group">
+                            <input type="number" class="" v-model.number="num8">
+                        </div>
+                    </li>
+                    <li class="box box-9">
+                        <div class="am-form-group">
+                            <input type="number" class="" v-model.number="num9">
+                        </div>
+                    </li>
+                </ul>
+                <div class="am-u-sm-6">
+                    <h2>{{ tip }}</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="./vue.js"></script>
+<script src="./Main.js"></script>
+<style>
+.boxes {
+  width: 300px;
+}
+
+.boxes .box {
+  height: 100px;
+  color: black;
+  line-height: 100px;
+  text-align: center;
+  font-weight: bold;
+  transition: all .2s ease;
+}
+.box input{
+    height: 100px;
+    width: 100%;
+    position: relative;
+    font-size: 80px;
+    text-align: center;
+}
+</style>
+
+</html>
